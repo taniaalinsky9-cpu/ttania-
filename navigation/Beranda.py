@@ -1,5 +1,19 @@
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #B7A99A;
+    }
+    .stApp p, .stApp li {
+        font-size: 17px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 coll1,coll2 = st.columns (2)
 with coll1 :
     st.title("WHO'S FORTOFOLIO (‘•.•’)?")
