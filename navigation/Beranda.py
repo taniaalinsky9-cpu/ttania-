@@ -10,7 +10,7 @@ with coll2 :
 
 col1, col2, col3 = st.columns (3)
 with col1 :
-    st.image("image/profile.jpg", width=170)
+    st.image("image/profile.jpg", width=180)
     st.page_link (
         "pages/Profile.py",
         label = "lihat profile"
