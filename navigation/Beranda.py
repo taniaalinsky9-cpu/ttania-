@@ -5,7 +5,7 @@ with coll1 :
     st.title("WHO'S FORTOFOLIO (‘•.•’)?")
 
 with coll2 :
-    st.image("question.jpg", width=300)
+    st.image("image/question.jpg", width=300)
 
 
 col1, col2, col3 = st.columns (3)
