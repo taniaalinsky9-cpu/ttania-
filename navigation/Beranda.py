@@ -4,7 +4,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #F7F3E8;
+        background-color: #DCCBDD;
     }
     .stApp p, .stApp li {
         font-size: 17px;
